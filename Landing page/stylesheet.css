@@ -1,3 +1,7 @@
+* {
+    border: 2px solid red;
+}
+
 body {
     font-family: roboto sans-serif;
     margin: 0;
@@ -13,18 +17,17 @@ body {
 }
 
 .logo {
-    color: white;
-    font-size: 32px;
+    color: #f9faf8;
+    font-size: 24px;
     font-weight: 600;
-    padding-left: 180px;
-    margin: 16px;
+    margin-left: 180px;
+    
 }
 
 ul {
     display: flex;
     gap: 16px;
-    padding-right: 180px;
-    margin: auto;
+    margin-right: 180px;
 }
 
 li {
@@ -33,7 +36,77 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
-    font-size: 20px;
-    filter: contrast(50%);
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* section one styling */
+.section-1 {
+    background-color: #1f2937;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 195px 0 195px;
+}
+    
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-right: 450px;
+}
+
+.main-text p {
+    color: #e5e7eb;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    cursor: pointer;
+    padding: 8px 30px;
+    text-align: center;
+    border-radius: 6px;
+    border: none;
+    margin: 0;
+}
+
+.sign-up {
+    margin-top: 5px;
+    width: fit-content;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    padding: 100px 195px 100px 195px;
+    margin-left: 360px;
+}
+
+/* section-2 */
+.section-2 {
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.img-placeholder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
