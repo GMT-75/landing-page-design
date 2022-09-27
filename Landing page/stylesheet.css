@@ -1,5 +1,5 @@
 * {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 body {
@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    /* overflow-x: hidden; Stop side scrolling. */
 }
 
 .header {
@@ -62,7 +63,6 @@ h1 {
     font-weight: bolder;
     margin-bottom: 0;
     margin-top: 0;
-    padding-right: 450px;
 }
 
 .main-text p {
@@ -92,21 +92,34 @@ button {
     justify-content: center;
     align-items: center;
     background-color: lightgrey;
-    padding: 100px 195px 100px 195px;
-    margin-left: 360px;
+    padding: 50px 150px 50px 150px;
+    margin-left: 220px;
 }
 
 /* section-2 */
-.section-2 {
-}
-
 h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
     display: flex;
     justify-content: center;
 }
 
-.img-placeholder {
+.img-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: blue 2px solid;
+}
+
+.img-placeholder {
+    height: 100px;
+    width: 100px;
+    border: green solid 2px;
+}
+
+.img-container  p {
+    color: pink;
+    display: flex;
+    align-self: center;
 }
