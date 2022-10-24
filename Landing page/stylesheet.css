@@ -91,9 +91,9 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgrey;
-    padding: 50px 150px 50px 150px;
-    margin-left: 220px;
+    background-color: rgb(147, 146, 146);
+    padding: 50px 120px 50px 120px;
+    margin-left: 50px;
 }
 
 /* section-2 */
@@ -115,11 +115,14 @@ h2 {
 .img-placeholder {
     height: 100px;
     width: 100px;
-    border: green solid 2px;
+    border: rgb(84, 84, 255) solid 2px;
+    border-radius: 10%;
 }
 
 .img-container  p {
     color: pink;
+    justify-content: space-between;
     display: flex;
     align-self: center;
+    border: #3882f6 2px solid;
 }
