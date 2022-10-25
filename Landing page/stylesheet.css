@@ -117,7 +117,7 @@ h2 {
     height: 130px;
     width: 130px;
     align-items: center;
-    border: rgb(84, 84, 255) solid 2px;
+    border: rgb(84, 84, 255) solid 3px;
     border-radius: 10%;
 }
 
@@ -129,7 +129,10 @@ h2 {
 /* section 3 - Quote section */
 
 .section-3 {
-    background-color: #E5E7EB;   
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 
 .section-3 p {
@@ -137,5 +140,12 @@ h2 {
     font-size: 36px;
     font-style: italic;
     font-weight: light;
-    text-align: center;
+}
+
+.section-3 strong {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 25px;
 }
